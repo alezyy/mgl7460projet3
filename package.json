@@ -6,12 +6,17 @@
     "start": "node ./bin/www"
   },
   "dependencies": {
+    "client-oauth2": "^4.2.5",
     "cookie-parser": "~1.4.4",
     "cucumber": "^6.0.5",
     "debug": "~2.6.9",
     "express": "~4.16.1",
     "http-errors": "~1.6.3",
+    "jsonpath": "^1.0.2",
+    "lodash": "^4.17.15",
     "morgan": "~1.9.1",
+    "request": "^2.88.0",
+    "simple-oauth2": "^3.1.0",
     "twig": "~0.10.3"
   },
   "devDependencies": {
