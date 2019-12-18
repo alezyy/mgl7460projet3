@@ -11,27 +11,25 @@ Feature: Create a client
     When  I put my email address in the email fields
     Then  The system check the email is unique
 
-<<<<<<< HEAD
-=======
-  # Scenario: Email format is valid
-  #   Given I fill the register form field
-  #   When  I put my email address in the email field
-  #   Then  Verify the email format is correct
+   Scenario: Email format is valid
+     Given I fill the register form field
+     When  I put my email address in the email field
+     Then  Verify the email format is correct
 
-  # Scenario: The password is 6 at least six digits minimum
-  #   Given I fill the register form fields
-  #   When  I insert the password
-  #   Then  valid the password length
+   Scenario: The password is 6 at least six digits minimum
+     Given I fill the register form fields
+     When  I insert the password
+     Then  valid the password length
 
-  # Scenario: Client give twice the password for confirmation
-  #   Given I fill the register form field
-  #   When I put my password
-  #   Then Ask to insert the password again in the next field
-  #   And  Validate password insert twice are identicallys same
+   Scenario: Client give twice the password for confirmation
+     Given I fill the register form field
+     When I put my password
+     Then Ask to insert the password again in the next field
+     And  Validate password insert twice are identicallys same
 
-  # Scenario: Client give twice email address for confirmation
-  #   Given I fill the register form field
-  #   When I put my email address
-  #   Then Ask to insert the email address again in the next field
-  #   And  Validate email address insert twice are identicallys same
->>>>>>> 6ba4d96acf601b1daa13831a6c54b2e6ce87e410
+   Scenario: Client give twice email address for confirmation
+     Given I fill the register form field
+     When I put my email address
+     Then Ask to insert the email address again in the next field
+     And  Validate email address insert twice are identicallys same
+
